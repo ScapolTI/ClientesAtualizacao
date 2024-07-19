@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ClientesAtualizacao.exe" version="1.0.0.2" publicKeyToken="d4c249afd52db8ee" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ClientesAtualizacao" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ClientesAtualizacao.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClientesAtualizacao.exe" size="28632">
+      <assemblyIdentity name="ClientesAtualizacao" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cBCf68SVsO0FnSPcT4dVrzGKcpJzZMVucISmx21c9DU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ClientesAtualizacao.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SCAPOL\fabio.morales" issuerKeyHash="fa1f2893e3745cb626e1cb964667c7d096043131" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jJpVL5pWPUDBAWwtdjPPTgWx1cd1Mf2+88KLPKdB7LM=</DigestValue></Reference></SignedInfo><SignatureValue>tZm8QzD437rRBn6ExIHmtvimN+VdXEUuXVCXqyuenYIXim1CZmq9LlMObdEblP/HSLYJv1RZYVL12eqeUGz8YJtgnGH4W/v0wui45nGVL0DWJzUW7DIftYoRkPM6OufH0L8QZSzqCJBczpBNajeE9/VZgWtApfEP91RfVK2f61g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9NSPLdfzUWOSwnANhlIeBBG9WhrnNd3yxpp7cuqdXhOVhp9jV2ipLCz+fYIHAUq/zLoKLF+6E54CdyVzxqzVvmi1eEVbbFeM7Zm8zD1LrylC6nhb3VP78IgjzigsftW6+RY57UGYQYUFd0K7KWpNbcSkKVXXrJmuREo2wAYmHWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b3ec41a73c8bc2f3befd3175c7d5b1054ecf33762d6c01c1403d569a2f559a8c" Description="" Url=""><as:assemblyIdentity name="ClientesAtualizacao.exe" version="1.0.0.2" publicKeyToken="d4c249afd52db8ee" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SCAPOL\fabio.morales</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0WZI9vvv6QGVpRZUQQshhQDBoTkE0iHgyhI4T3g0DWU=</DigestValue></Reference></SignedInfo><SignatureValue>chisp7NQOLGizHYBisEMaEuD5do0VQ5QXbVlAH2zOPjtQL9pFOsYojPH8ZrojYEyWtM+8b+ZKqsxGnrVuZFbyyh3n0t+U6fgFdZwV+tpEHToAq1ZfG0YS1ReLojYT7GjLLGe+nDt3hQwhSLDxpWESs1/8V8nxfg/YV7C38C4caw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9NSPLdfzUWOSwnANhlIeBBG9WhrnNd3yxpp7cuqdXhOVhp9jV2ipLCz+fYIHAUq/zLoKLF+6E54CdyVzxqzVvmi1eEVbbFeM7Zm8zD1LrylC6nhb3VP78IgjzigsftW6+RY57UGYQYUFd0K7KWpNbcSkKVXXrJmuREo2wAYmHWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQZLwvn58eFohOns+WIRfJaTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUwBDAEEAUABPAEwAXABmAGEAYgBpAG8ALgBtAG8AcgBhAGwAZQBzMB4XDTIyMDIyNTExNDczNloXDTIzMDIyNTE3NDczNlowMzExMC8GA1UEAx4oAFMAQwBBAFAATwBMAFwAZgBhAGIAaQBvAC4AbQBvAHIAYQBsAGUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA9NSPLdfzUWOSwnANhlIeBBG9WhrnNd3yxpp7cuqdXhOVhp9jV2ipLCz+fYIHAUq/zLoKLF+6E54CdyVzxqzVvmi1eEVbbFeM7Zm8zD1LrylC6nhb3VP78IgjzigsftW6+RY57UGYQYUFd0K7KWpNbcSkKVXXrJmuREo2wAYmHWUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB74KdAmIQcxwrOoF8iSFQesndtkOZ7nGAk9e/W6wijLiGTIOXgLSlrj9nZ2XRmR8piY1PYWhONflpaXhM2IFu9cvcRgHPxEln+DnFq0l77N8uQ4ybTaVcmzulm0n5sC3XUZSP3lrKhwPK8yfr7ZYU8vmxCRICILKvQkZbF1w+Sug==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
